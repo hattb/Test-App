@@ -21,4 +21,14 @@ public class MainActivity extends AppCompatActivity {
     protected void onStop() {
         super.onStop();
     }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+    }
+
+    @Override
+    protected void onRestart() {
+        super.onRestart();
+    }
 }
