@@ -11,4 +11,14 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         // test
     }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+    }
 }
